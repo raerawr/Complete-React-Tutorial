@@ -15,7 +15,6 @@ const Home = () => {
 
     useEffect(() => {
         console.log('use effect ran');
-        console.log(name);
     }, []);
 
     return (
